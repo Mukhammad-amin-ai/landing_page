@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* overflow: hidden;
+    outline: none; */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container .navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.container .navbar .box1 {
+    width: 292px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .navbar .box2 ul {
+    width: 430px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .navbar .box2 li a {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+
+
+    /* Secondary */
+
+    color: #080B13;
+
+}
+
+.container .navbar .box3 ul {
+    width: 313px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.container .navbar .box3 li a {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+
+    /* Secondary */
+
+    color: #080B13;
+}
+
+.container .smal {
+    display: flex;
+    width: 100%;
+    height: 24px;
+    justify-content: start;
+    padding-left: 50px;
+}
+
+.container .main {
+    width: 100%;
+    height: 716px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.container .main .left {
+    width: 670px;
+    height: 685px;
+    background-color: gray;
+}
+
+.container .main .right {
+    width: 670px;
+    height: 685px;
+}
+
+.container .main .child1 {
+    width: 178px;
+    height: 96px;
+}
+.container .main .child1 h2{
+    padding-top: 10px;
+}
+
+.container .main .child2 {
+    width: 438px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.container .main .child2 button {
+    width: 203px;
+    height: 100%;
+    font-weight: 600;
+}
+
+.container .main .child2 button:nth-child(1) {
+    background-color: #fff;
+    transition: all .3s linear;
+}
+.container .main .child2 button:nth-child(1):hover{
+    background-color: #000;
+    color: #ccc;
+}
+
+.container .main .child2 button:nth-child(2) {
+    background-color: #000;
+    color: #fff;
+    transition: all .3s linear;
+}
+.container .main .child2 button:nth-child(2):hover{
+    background-color: #fff;
+    color: #000;
+}
+.container .main .child3{
+    width: 225px;
+    height: 82px;
+    margin-top: 32px;
+    
+}
+.container .main .child4{
+    width: 373px;
+    height: 50px;
+    margin-top: 32px;
+
+}
+.container .main .child5{
+    width: 606px;
+    height: 254px;
+    margin-top: 32px;
+
+}
